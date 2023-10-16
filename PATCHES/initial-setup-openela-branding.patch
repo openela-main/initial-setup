@@ -1,0 +1,708 @@
+diff -Naurp initial-setup-0.3.90.2-orig/initial_setup/gui/spokes/eula.py initial-setup-0.3.90.2/initial_setup/gui/spokes/eula.py
+--- initial-setup-0.3.90.2-orig/initial_setup/gui/spokes/eula.py	2021-05-03 11:06:04.000000000 -0700
++++ initial-setup-0.3.90.2/initial_setup/gui/spokes/eula.py	2022-01-26 18:15:27.193797620 -0700
+@@ -48,7 +48,7 @@ class EULASpoke(FirstbootOnlySpokeMixIn,
+             log.error("no license found")
+             self._have_eula = False
+             self._eula_buffer.set_text(_("No license found. Please report this "
+-                                         "at http://bugzilla.redhat.com"))
++                                         "at http://bugs.openela.org"))
+             return
+ 
+         self._eula_buffer.set_text("")
+diff -Naurp initial-setup-0.3.90.2-orig/po/af.po initial-setup-0.3.90.2/po/af.po
+--- initial-setup-0.3.90.2-orig/po/af.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/af.po	2022-01-26 18:16:29.369566436 -0700
+@@ -43,9 +43,9 @@ msgid "_License Information"
+ msgstr "_Lisensie-inligting"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Geen lisensie gevind nie. Rapporteer dit asseblief by http://bugzilla.redhat."
++"Geen lisensie gevind nie. Rapporteer dit asseblief by http://bugs.openelalinux."
+ "com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/as.po initial-setup-0.3.90.2/po/as.po
+--- initial-setup-0.3.90.2-orig/po/as.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/as.po	2022-01-26 18:16:29.373566421 -0700
+@@ -44,7 +44,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/be.po initial-setup-0.3.90.2/po/be.po
+--- initial-setup-0.3.90.2-orig/po/be.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/be.po	2022-01-26 18:16:29.377566406 -0700
+@@ -42,9 +42,9 @@ msgid "_License Information"
+ msgstr "Інфармацыя аб _ліцэнзіі"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Ліцэнзія не знойдзена. Просім паведаміць пра гэта на http://bugzilla.redhat."
++"Ліцэнзія не знойдзена. Просім паведаміць пра гэта на http://bugs.openelalinux."
+ "com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/bn_IN.po initial-setup-0.3.90.2/po/bn_IN.po
+--- initial-setup-0.3.90.2-orig/po/bn_IN.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/bn_IN.po	2022-01-26 18:16:29.381566392 -0700
+@@ -44,7 +44,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/ca.po initial-setup-0.3.90.2/po/ca.po
+--- initial-setup-0.3.90.2-orig/po/ca.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/ca.po	2022-01-26 18:16:29.385566377 -0700
+@@ -49,8 +49,8 @@ msgid "_License Information"
+ msgstr "Informació de la _llicència"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "No s'ha trobat cap llicència. Informeu-ho a http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "No s'ha trobat cap llicència. Informeu-ho a http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/cs.po initial-setup-0.3.90.2/po/cs.po
+--- initial-setup-0.3.90.2-orig/po/cs.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/cs.po	2022-01-26 18:16:29.389566362 -0700
+@@ -42,9 +42,9 @@ msgid "_License Information"
+ msgstr "Informace o _licenci"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Licence nebyla nalezena. Nahlaste to prosím na http://bugzilla.redhat.com"
++"Licence nebyla nalezena. Nahlaste to prosím na http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/da.po initial-setup-0.3.90.2/po/da.po
+--- initial-setup-0.3.90.2-orig/po/da.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/da.po	2022-01-26 18:16:29.393566347 -0700
+@@ -49,9 +49,9 @@ msgid "_License Information"
+ msgstr "_Licensinformation"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Ingen licens fundet. Rapportér det venligst på http://bugzilla.redhat.com"
++"Ingen licens fundet. Rapportér det venligst på http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/de.po initial-setup-0.3.90.2/po/de.po
+--- initial-setup-0.3.90.2-orig/po/de.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/de.po	2022-01-26 18:16:29.396566336 -0700
+@@ -49,9 +49,9 @@ msgid "_License Information"
+ msgstr "_Lizenz-Informationen"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Keine Lizenz gefunden. Bitte melden SIe dies auf http://bugzilla.redhat.com"
++"Keine Lizenz gefunden. Bitte melden SIe dies auf http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/es.po initial-setup-0.3.90.2/po/es.po
+--- initial-setup-0.3.90.2-orig/po/es.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/es.po	2022-01-26 18:16:29.400566321 -0700
+@@ -50,9 +50,9 @@ msgid "_License Information"
+ msgstr "Información de _licencia"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"No se encontró la licencia. Por favor informe en http://bugzilla.redhat.com"
++"No se encontró la licencia. Por favor informe en http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/eu.po initial-setup-0.3.90.2/po/eu.po
+--- initial-setup-0.3.90.2-orig/po/eu.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/eu.po	2022-01-26 18:16:29.404566306 -0700
+@@ -39,9 +39,9 @@ msgid "_License Information"
+ msgstr "_Lizentzia informazioa"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Ez da lizentzia topatu. Mesedez, eman hau jakitera http://bugzilla.redhat."
++"Ez da lizentzia topatu. Mesedez, eman hau jakitera http://bugs.openelalinux."
+ "com helbidean"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/fi.po initial-setup-0.3.90.2/po/fi.po
+--- initial-setup-0.3.90.2-orig/po/fi.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/fi.po	2022-01-26 18:16:29.408566291 -0700
+@@ -43,8 +43,8 @@ msgid "_License Information"
+ msgstr "_Lisenssitiedot"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "Lisenssiä ei löytynyt. Ilmoita ongelmasta: http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "Lisenssiä ei löytynyt. Ilmoita ongelmasta: http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/fr.po initial-setup-0.3.90.2/po/fr.po
+--- initial-setup-0.3.90.2-orig/po/fr.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/fr.po	2022-01-26 18:16:29.412566277 -0700
+@@ -52,7 +52,7 @@ msgid "_License Information"
+ msgstr "_Informations sur la licence"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ "Aucune licence trouvée. Merci de rapporter ce problème sur http://bugzilla."
+ "redhat.com"
+diff -Naurp initial-setup-0.3.90.2-orig/po/fur.po initial-setup-0.3.90.2/po/fur.po
+--- initial-setup-0.3.90.2-orig/po/fur.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/fur.po	2022-01-26 18:16:29.416566262 -0700
+@@ -45,9 +45,9 @@ msgid "_License Information"
+ msgstr "_Informazions su la licence"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Nissune licence cjatade. Par plasê segnalilu su http://bugzilla.redhat.com"
++"Nissune licence cjatade. Par plasê segnalilu su http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/gl.po initial-setup-0.3.90.2/po/gl.po
+--- initial-setup-0.3.90.2-orig/po/gl.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/gl.po	2022-01-26 18:16:29.420566247 -0700
+@@ -44,7 +44,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/gu.po initial-setup-0.3.90.2/po/gu.po
+--- initial-setup-0.3.90.2-orig/po/gu.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/gu.po	2022-01-26 18:16:29.423566236 -0700
+@@ -44,7 +44,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/he.po initial-setup-0.3.90.2/po/he.po
+--- initial-setup-0.3.90.2-orig/po/he.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/he.po	2022-01-26 18:16:29.427566221 -0700
+@@ -43,8 +43,8 @@ msgid "_License Information"
+ msgstr "_פרטי הרישוי"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "לא נמצא רישיון. נא לדווח על כך בכתובת http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "לא נמצא רישיון. נא לדווח על כך בכתובת http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/hi.po initial-setup-0.3.90.2/po/hi.po
+--- initial-setup-0.3.90.2-orig/po/hi.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/hi.po	2022-01-26 18:16:29.431566206 -0700
+@@ -44,7 +44,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/hu.po initial-setup-0.3.90.2/po/hu.po
+--- initial-setup-0.3.90.2-orig/po/hu.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/hu.po	2022-01-26 18:16:29.435566191 -0700
+@@ -50,9 +50,9 @@ msgid "_License Information"
+ msgstr "_Licencinformációk"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Nem található licenc. Kérjük jelentse ezt itt: http://bugzilla.redhat.com"
++"Nem található licenc. Kérjük jelentse ezt itt: http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/ia.po initial-setup-0.3.90.2/po/ia.po
+--- initial-setup-0.3.90.2-orig/po/ia.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/ia.po	2022-01-26 18:16:29.439566176 -0700
+@@ -44,7 +44,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/id.po initial-setup-0.3.90.2/po/id.po
+--- initial-setup-0.3.90.2-orig/po/id.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/id.po	2022-01-26 18:16:29.442566165 -0700
+@@ -44,9 +44,9 @@ msgid "_License Information"
+ msgstr "Informasi _Lisensi"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Tidak ditemukan lisensi. Harap laporkan ini pada http://bugzilla.redhat.com"
++"Tidak ditemukan lisensi. Harap laporkan ini pada http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/initial-setup.pot initial-setup-0.3.90.2/po/initial-setup.pot
+--- initial-setup-0.3.90.2-orig/po/initial-setup.pot	2021-06-11 07:12:29.000000000 -0700
++++ initial-setup-0.3.90.2/po/initial-setup.pot	2022-01-26 18:16:29.446566150 -0700
+@@ -39,7 +39,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/it.po initial-setup-0.3.90.2/po/it.po
+--- initial-setup-0.3.90.2-orig/po/it.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/it.po	2022-01-26 18:16:29.450566135 -0700
+@@ -49,9 +49,9 @@ msgid "_License Information"
+ msgstr "_Informazioni sulla licenza"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Nessuna licenza trovata. Esegui la notifica su http://bugzilla.redhat.com"
++"Nessuna licenza trovata. Esegui la notifica su http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/ja.po initial-setup-0.3.90.2/po/ja.po
+--- initial-setup-0.3.90.2-orig/po/ja.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/ja.po	2022-01-26 18:16:29.454566120 -0700
+@@ -48,9 +48,9 @@ msgid "_License Information"
+ msgstr "ライセンス情報(_L)"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"ライセンスが見つかりません。http://bugzilla.redhat.com に報告してください。"
++"ライセンスが見つかりません。http://bugs.openelalinux.com に報告してください。"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/kab.po initial-setup-0.3.90.2/po/kab.po
+--- initial-setup-0.3.90.2-orig/po/kab.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/kab.po	2022-01-26 18:16:29.458566105 -0700
+@@ -40,7 +40,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/kk.po initial-setup-0.3.90.2/po/kk.po
+--- initial-setup-0.3.90.2-orig/po/kk.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/kk.po	2022-01-26 18:16:29.462566091 -0700
+@@ -47,9 +47,9 @@ msgid "_License Information"
+ msgstr "_Лицензия ақпараты"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Лицензия табылмады. Бұл туралы http://bugzilla.redhat.com сайтында хабарлаңыз"
++"Лицензия табылмады. Бұл туралы http://bugs.openelalinux.com сайтында хабарлаңыз"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/km.po initial-setup-0.3.90.2/po/km.po
+--- initial-setup-0.3.90.2-orig/po/km.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/km.po	2022-01-26 18:16:29.465566079 -0700
+@@ -38,7 +38,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/kn.po initial-setup-0.3.90.2/po/kn.po
+--- initial-setup-0.3.90.2-orig/po/kn.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/kn.po	2022-01-26 18:16:29.469566064 -0700
+@@ -46,7 +46,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/ko.po initial-setup-0.3.90.2/po/ko.po
+--- initial-setup-0.3.90.2-orig/po/ko.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/ko.po	2022-01-26 18:16:29.473566050 -0700
+@@ -48,9 +48,9 @@ msgid "_License Information"
+ msgstr "_저작권 정보"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"저작권을 찾을 수 없습니다. http://bugzilla.redhat.com에 보고해 주십시오"
++"저작권을 찾을 수 없습니다. http://bugs.openelalinux.com에 보고해 주십시오"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/ml.po initial-setup-0.3.90.2/po/ml.po
+--- initial-setup-0.3.90.2-orig/po/ml.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/ml.po	2022-01-26 18:16:29.481566020 -0700
+@@ -44,7 +44,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/mr.po initial-setup-0.3.90.2/po/mr.po
+--- initial-setup-0.3.90.2-orig/po/mr.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/mr.po	2022-01-26 18:16:29.484566009 -0700
+@@ -45,7 +45,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/nb.po initial-setup-0.3.90.2/po/nb.po
+--- initial-setup-0.3.90.2-orig/po/nb.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/nb.po	2022-01-26 18:16:29.488565994 -0700
+@@ -45,7 +45,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/nl.po initial-setup-0.3.90.2/po/nl.po
+--- initial-setup-0.3.90.2-orig/po/nl.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/nl.po	2022-01-26 18:16:29.492565979 -0700
+@@ -48,8 +48,8 @@ msgid "_License Information"
+ msgstr "_Licentie informatie"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "Geen licentie gevonden. Rapporteer dit op http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "Geen licentie gevonden. Rapporteer dit op http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/nn.po initial-setup-0.3.90.2/po/nn.po
+--- initial-setup-0.3.90.2-orig/po/nn.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/nn.po	2022-01-26 18:16:29.496565964 -0700
+@@ -42,8 +42,8 @@ msgid "_License Information"
+ msgstr "_Lisensinfo"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "Lisens vart ikkje funne. Rapporter dette på http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "Lisens vart ikkje funne. Rapporter dette på http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/or.po initial-setup-0.3.90.2/po/or.po
+--- initial-setup-0.3.90.2-orig/po/or.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/or.po	2022-01-26 18:16:29.500565949 -0700
+@@ -44,7 +44,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/pa.po initial-setup-0.3.90.2/po/pa.po
+--- initial-setup-0.3.90.2-orig/po/pa.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/pa.po	2022-01-26 18:16:29.504565934 -0700
+@@ -51,8 +51,8 @@ msgid "_License Information"
+ msgstr "ਲਸੰਸ ਜਾਣਕਾਰੀ(_L)"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "ਲਸੰਸ ਨਹੀਂ ਲੱਭਿਆ। ਇਸ ਬਾਰੇ ਜਾਣਕਾਰੀ http://bugzilla.redhat.com ਉੱਤੇ ਦਿਓ"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "ਲਸੰਸ ਨਹੀਂ ਲੱਭਿਆ। ਇਸ ਬਾਰੇ ਜਾਣਕਾਰੀ http://bugs.openelalinux.com ਉੱਤੇ ਦਿਓ"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/pl.po initial-setup-0.3.90.2/po/pl.po
+--- initial-setup-0.3.90.2-orig/po/pl.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/pl.po	2022-01-26 18:16:29.507565923 -0700
+@@ -51,7 +51,7 @@ msgid "_License Information"
+ msgstr "_Informacje o licencji"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ "Nie odnaleziono licencji. Prosimy to zgłosić pod adresem http://bugzilla."
+ "redhat.com"
+diff -Naurp initial-setup-0.3.90.2-orig/po/pt_BR.po initial-setup-0.3.90.2/po/pt_BR.po
+--- initial-setup-0.3.90.2-orig/po/pt_BR.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/pt_BR.po	2022-01-26 18:16:29.511565908 -0700
+@@ -52,9 +52,9 @@ msgid "_License Information"
+ msgstr "_Informação sobre a licença"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Nenhuma licença encontrada. Por favor, relate isto em http://bugzilla.redhat."
++"Nenhuma licença encontrada. Por favor, relate isto em http://bugs.openelalinux."
+ "com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/pt.po initial-setup-0.3.90.2/po/pt.po
+--- initial-setup-0.3.90.2-orig/po/pt.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/pt.po	2022-01-26 18:16:29.515565893 -0700
+@@ -50,7 +50,7 @@ msgid "_License Information"
+ msgstr "Informação da _Licença"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ "Nenhuma licença encontrada. Por favor, reporte isto em http://bugzilla."
+ "redhat.com"
+diff -Naurp initial-setup-0.3.90.2-orig/po/ro.po initial-setup-0.3.90.2/po/ro.po
+--- initial-setup-0.3.90.2-orig/po/ro.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/ro.po	2022-01-26 18:16:29.519565878 -0700
+@@ -39,7 +39,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/ru.po initial-setup-0.3.90.2/po/ru.po
+--- initial-setup-0.3.90.2-orig/po/ru.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/ru.po	2022-01-26 18:16:29.523565864 -0700
+@@ -50,8 +50,8 @@ msgid "_License Information"
+ msgstr "_Информация о лицензии"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "Лицензия не найдена. Сообщите об этом в http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "Лицензия не найдена. Сообщите об этом в http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/si.po initial-setup-0.3.90.2/po/si.po
+--- initial-setup-0.3.90.2-orig/po/si.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/si.po	2022-01-26 18:16:29.527565849 -0700
+@@ -37,7 +37,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/sk.po initial-setup-0.3.90.2/po/sk.po
+--- initial-setup-0.3.90.2-orig/po/sk.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/sk.po	2022-01-26 18:16:29.530565838 -0700
+@@ -42,8 +42,8 @@ msgid "_License Information"
+ msgstr "Informácie o _licencii"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "Licencia nebola nájdená. Nahláste to na http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "Licencia nebola nájdená. Nahláste to na http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/sq.po initial-setup-0.3.90.2/po/sq.po
+--- initial-setup-0.3.90.2-orig/po/sq.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/sq.po	2022-01-26 18:16:29.534565823 -0700
+@@ -40,7 +40,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/sr.po initial-setup-0.3.90.2/po/sr.po
+--- initial-setup-0.3.90.2-orig/po/sr.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/sr.po	2022-01-26 18:16:29.538565808 -0700
+@@ -45,7 +45,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/sv.po initial-setup-0.3.90.2/po/sv.po
+--- initial-setup-0.3.90.2-orig/po/sv.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/sv.po	2022-01-26 18:16:29.542565793 -0700
+@@ -49,7 +49,7 @@ msgid "_License Information"
+ msgstr "_Licensinformation"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ "Ingen licensinformation hittades. Rapportera gärna detta på http://bugzilla."
+ "redhat.com"
+diff -Naurp initial-setup-0.3.90.2-orig/po/ta.po initial-setup-0.3.90.2/po/ta.po
+--- initial-setup-0.3.90.2-orig/po/ta.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/ta.po	2022-01-26 18:16:29.546565778 -0700
+@@ -45,7 +45,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/te.po initial-setup-0.3.90.2/po/te.po
+--- initial-setup-0.3.90.2-orig/po/te.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/te.po	2022-01-26 18:16:29.550565763 -0700
+@@ -45,7 +45,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/th.po initial-setup-0.3.90.2/po/th.po
+--- initial-setup-0.3.90.2-orig/po/th.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/th.po	2022-01-26 18:16:29.554565749 -0700
+@@ -38,7 +38,7 @@ msgid "_License Information"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+diff -Naurp initial-setup-0.3.90.2-orig/po/tr.po initial-setup-0.3.90.2/po/tr.po
+--- initial-setup-0.3.90.2-orig/po/tr.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/tr.po	2022-01-26 18:16:29.557565737 -0700
+@@ -44,9 +44,9 @@ msgid "_License Information"
+ msgstr "_Lisans Bilgisi"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+-"Lisans bulunamadı. Lütfen bunu http://bugzilla.redhat.com adresinden bildirin"
++"Lisans bulunamadı. Lütfen bunu http://bugs.openelalinux.com adresinden bildirin"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/uk.po initial-setup-0.3.90.2/po/uk.po
+--- initial-setup-0.3.90.2-orig/po/uk.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/uk.po	2022-01-26 18:16:29.561565722 -0700
+@@ -51,10 +51,10 @@ msgid "_License Information"
+ msgstr "_Дані щодо ліцензування"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
+ msgstr ""
+ "Не знайдено ліцензійної угоди. Будь ласка, повідомте про це за допомогою "
+-"сайта http://bugzilla.redhat.com"
++"сайта http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/zh_CN.po initial-setup-0.3.90.2/po/zh_CN.po
+--- initial-setup-0.3.90.2-orig/po/zh_CN.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/zh_CN.po	2022-01-26 18:16:29.565565708 -0700
+@@ -49,8 +49,8 @@ msgid "_License Information"
+ msgstr "许可信息(_L)"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "未找到许可。请汇报此问题至 http://bugzilla.redhat.com"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "未找到许可。请汇报此问题至 http://bugs.openelalinux.com"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
+diff -Naurp initial-setup-0.3.90.2-orig/po/zh_TW.po initial-setup-0.3.90.2/po/zh_TW.po
+--- initial-setup-0.3.90.2-orig/po/zh_TW.po	2021-06-11 07:24:02.000000000 -0700
++++ initial-setup-0.3.90.2/po/zh_TW.po	2022-01-26 18:16:29.569565693 -0700
+@@ -50,8 +50,8 @@ msgid "_License Information"
+ msgstr "授權資訊(_L)"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:50
+-msgid "No license found. Please report this at http://bugzilla.redhat.com"
+-msgstr "找不到授權文件。請在 http://bugzilla.redhat.com 回報這個問題"
++msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgstr "找不到授權文件。請在 http://bugs.openelalinux.com 回報這個問題"
+ 
+ #: ../initial_setup/gui/spokes/eula.py:89
+ msgid "No license found"
