@@ -1,0 +1,24 @@
+diff -Naur initial-setup-0.3.81.6-old/initial_setup/gui/spokes/eula.py initial-setup-0.3.81.6/initial_setup/gui/spokes/eula.py
+--- initial-setup-0.3.81.6-old/initial_setup/gui/spokes/eula.py	2020-07-17 06:52:28.000000000 -0700
++++ initial-setup-0.3.81.6/initial_setup/gui/spokes/eula.py	2021-02-26 03:46:45.276768599 -0700
+@@ -48,7 +48,7 @@
+             log.error("no license found")
+             self._have_eula = False
+             self._eula_buffer.set_text(_("No license found. Please report this "
+-                                         "at http://bugzilla.redhat.com"))
++                                         "at http://bugs.openela.org"))
+             return
+ 
+         self._eula_buffer.set_text("")
+diff -Naur initial-setup-0.3.81.6-old/initial_setup/product.py initial-setup-0.3.81.6/initial_setup/product.py
+--- initial-setup-0.3.81.6-old/initial_setup/product.py	2020-07-17 06:52:28.000000000 -0700
++++ initial-setup-0.3.81.6/initial_setup/product.py	2021-02-26 03:47:15.574369856 -0700
+@@ -7,7 +7,7 @@
+ import glob
+ 
+ RELEASE_STRING_FILE = "/etc/os-release"
+-LICENSE_FILE_GLOB = "/usr/share/redhat-release*/EULA*"
++LICENSE_FILE_GLOB = "/usr/share/openela-release*/EULA*"
+ 
+ log = logging.getLogger("initial-setup")
+ 
