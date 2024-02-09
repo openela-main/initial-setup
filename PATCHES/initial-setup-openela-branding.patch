@@ -18,10 +18,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/af.po initial-setup-0.3.90.2/po/af.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Geen lisensie gevind nie. Rapporteer dit asseblief by http://bugzilla.redhat."
-+"Geen lisensie gevind nie. Rapporteer dit asseblief by http://bugs.openelalinux."
++"Geen lisensie gevind nie. Rapporteer dit asseblief by http://bugs.openela."
  "com"
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -33,7 +33,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/as.po initial-setup-0.3.90.2/po/as.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -45,7 +45,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/be.po initial-setup-0.3.90.2/po/be.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Ліцэнзія не знойдзена. Просім паведаміць пра гэта на http://bugzilla.redhat."
 +"Ліцэнзія не знойдзена. Просім паведаміць пра гэта на http://bugs.openelalinux."
@@ -60,7 +60,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/bn_IN.po initial-setup-0.3.90.2/po/bn
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -73,8 +73,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/ca.po initial-setup-0.3.90.2/po/ca.po
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "No s'ha trobat cap llicència. Informeu-ho a http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "No s'ha trobat cap llicència. Informeu-ho a http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "No s'ha trobat cap llicència. Informeu-ho a http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -86,10 +86,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/cs.po initial-setup-0.3.90.2/po/cs.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Licence nebyla nalezena. Nahlaste to prosím na http://bugzilla.redhat.com"
-+"Licence nebyla nalezena. Nahlaste to prosím na http://bugs.openelalinux.com"
++"Licence nebyla nalezena. Nahlaste to prosím na http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -101,10 +101,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/da.po initial-setup-0.3.90.2/po/da.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Ingen licens fundet. Rapportér det venligst på http://bugzilla.redhat.com"
-+"Ingen licens fundet. Rapportér det venligst på http://bugs.openelalinux.com"
++"Ingen licens fundet. Rapportér det venligst på http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -116,10 +116,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/de.po initial-setup-0.3.90.2/po/de.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Keine Lizenz gefunden. Bitte melden SIe dies auf http://bugzilla.redhat.com"
-+"Keine Lizenz gefunden. Bitte melden SIe dies auf http://bugs.openelalinux.com"
++"Keine Lizenz gefunden. Bitte melden SIe dies auf http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -131,10 +131,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/es.po initial-setup-0.3.90.2/po/es.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"No se encontró la licencia. Por favor informe en http://bugzilla.redhat.com"
-+"No se encontró la licencia. Por favor informe en http://bugs.openelalinux.com"
++"No se encontró la licencia. Por favor informe en http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -146,7 +146,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/eu.po initial-setup-0.3.90.2/po/eu.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Ez da lizentzia topatu. Mesedez, eman hau jakitera http://bugzilla.redhat."
 +"Ez da lizentzia topatu. Mesedez, eman hau jakitera http://bugs.openelalinux."
@@ -162,8 +162,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/fi.po initial-setup-0.3.90.2/po/fi.po
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "Lisenssiä ei löytynyt. Ilmoita ongelmasta: http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "Lisenssiä ei löytynyt. Ilmoita ongelmasta: http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "Lisenssiä ei löytynyt. Ilmoita ongelmasta: http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -175,7 +175,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/fr.po initial-setup-0.3.90.2/po/fr.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  "Aucune licence trouvée. Merci de rapporter ce problème sur http://bugzilla."
  "redhat.com"
@@ -187,10 +187,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/fur.po initial-setup-0.3.90.2/po/fur.
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Nissune licence cjatade. Par plasê segnalilu su http://bugzilla.redhat.com"
-+"Nissune licence cjatade. Par plasê segnalilu su http://bugs.openelalinux.com"
++"Nissune licence cjatade. Par plasê segnalilu su http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -202,7 +202,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/gl.po initial-setup-0.3.90.2/po/gl.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -214,7 +214,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/gu.po initial-setup-0.3.90.2/po/gu.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -227,8 +227,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/he.po initial-setup-0.3.90.2/po/he.po
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "לא נמצא רישיון. נא לדווח על כך בכתובת http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "לא נמצא רישיון. נא לדווח על כך בכתובת http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "לא נמצא רישיון. נא לדווח על כך בכתובת http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -240,7 +240,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/hi.po initial-setup-0.3.90.2/po/hi.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -252,10 +252,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/hu.po initial-setup-0.3.90.2/po/hu.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Nem található licenc. Kérjük jelentse ezt itt: http://bugzilla.redhat.com"
-+"Nem található licenc. Kérjük jelentse ezt itt: http://bugs.openelalinux.com"
++"Nem található licenc. Kérjük jelentse ezt itt: http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -267,7 +267,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/ia.po initial-setup-0.3.90.2/po/ia.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -279,10 +279,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/id.po initial-setup-0.3.90.2/po/id.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Tidak ditemukan lisensi. Harap laporkan ini pada http://bugzilla.redhat.com"
-+"Tidak ditemukan lisensi. Harap laporkan ini pada http://bugs.openelalinux.com"
++"Tidak ditemukan lisensi. Harap laporkan ini pada http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -294,7 +294,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/initial-setup.pot initial-setup-0.3.9
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -306,10 +306,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/it.po initial-setup-0.3.90.2/po/it.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Nessuna licenza trovata. Esegui la notifica su http://bugzilla.redhat.com"
-+"Nessuna licenza trovata. Esegui la notifica su http://bugs.openelalinux.com"
++"Nessuna licenza trovata. Esegui la notifica su http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -321,10 +321,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/ja.po initial-setup-0.3.90.2/po/ja.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"ライセンスが見つかりません。http://bugzilla.redhat.com に報告してください。"
-+"ライセンスが見つかりません。http://bugs.openelalinux.com に報告してください。"
++"ライセンスが見つかりません。http://bugs.openela.org に報告してください。"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -336,7 +336,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/kab.po initial-setup-0.3.90.2/po/kab.
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -348,10 +348,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/kk.po initial-setup-0.3.90.2/po/kk.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Лицензия табылмады. Бұл туралы http://bugzilla.redhat.com сайтында хабарлаңыз"
-+"Лицензия табылмады. Бұл туралы http://bugs.openelalinux.com сайтында хабарлаңыз"
++"Лицензия табылмады. Бұл туралы http://bugs.openela.org сайтында хабарлаңыз"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -363,7 +363,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/km.po initial-setup-0.3.90.2/po/km.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -375,7 +375,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/kn.po initial-setup-0.3.90.2/po/kn.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -387,10 +387,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/ko.po initial-setup-0.3.90.2/po/ko.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"저작권을 찾을 수 없습니다. http://bugzilla.redhat.com에 보고해 주십시오"
-+"저작권을 찾을 수 없습니다. http://bugs.openelalinux.com에 보고해 주십시오"
++"저작권을 찾을 수 없습니다. http://bugs.openela.org에 보고해 주십시오"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -402,7 +402,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/ml.po initial-setup-0.3.90.2/po/ml.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -414,7 +414,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/mr.po initial-setup-0.3.90.2/po/mr.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -426,7 +426,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/nb.po initial-setup-0.3.90.2/po/nb.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -439,8 +439,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/nl.po initial-setup-0.3.90.2/po/nl.po
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "Geen licentie gevonden. Rapporteer dit op http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "Geen licentie gevonden. Rapporteer dit op http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "Geen licentie gevonden. Rapporteer dit op http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -453,8 +453,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/nn.po initial-setup-0.3.90.2/po/nn.po
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "Lisens vart ikkje funne. Rapporter dette på http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "Lisens vart ikkje funne. Rapporter dette på http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "Lisens vart ikkje funne. Rapporter dette på http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -466,7 +466,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/or.po initial-setup-0.3.90.2/po/or.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -479,8 +479,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/pa.po initial-setup-0.3.90.2/po/pa.po
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "ਲਸੰਸ ਨਹੀਂ ਲੱਭਿਆ। ਇਸ ਬਾਰੇ ਜਾਣਕਾਰੀ http://bugzilla.redhat.com ਉੱਤੇ ਦਿਓ"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "ਲਸੰਸ ਨਹੀਂ ਲੱਭਿਆ। ਇਸ ਬਾਰੇ ਜਾਣਕਾਰੀ http://bugs.openelalinux.com ਉੱਤੇ ਦਿਓ"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "ਲਸੰਸ ਨਹੀਂ ਲੱਭਿਆ। ਇਸ ਬਾਰੇ ਜਾਣਕਾਰੀ http://bugs.openela.org ਉੱਤੇ ਦਿਓ"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -492,7 +492,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/pl.po initial-setup-0.3.90.2/po/pl.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  "Nie odnaleziono licencji. Prosimy to zgłosić pod adresem http://bugzilla."
  "redhat.com"
@@ -504,7 +504,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/pt_BR.po initial-setup-0.3.90.2/po/pt
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Nenhuma licença encontrada. Por favor, relate isto em http://bugzilla.redhat."
 +"Nenhuma licença encontrada. Por favor, relate isto em http://bugs.openelalinux."
@@ -519,7 +519,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/pt.po initial-setup-0.3.90.2/po/pt.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  "Nenhuma licença encontrada. Por favor, reporte isto em http://bugzilla."
  "redhat.com"
@@ -531,7 +531,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/ro.po initial-setup-0.3.90.2/po/ro.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -544,8 +544,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/ru.po initial-setup-0.3.90.2/po/ru.po
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "Лицензия не найдена. Сообщите об этом в http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "Лицензия не найдена. Сообщите об этом в http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "Лицензия не найдена. Сообщите об этом в http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -557,7 +557,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/si.po initial-setup-0.3.90.2/po/si.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -570,8 +570,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/sk.po initial-setup-0.3.90.2/po/sk.po
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "Licencia nebola nájdená. Nahláste to na http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "Licencia nebola nájdená. Nahláste to na http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "Licencia nebola nájdená. Nahláste to na http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -583,7 +583,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/sq.po initial-setup-0.3.90.2/po/sq.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -595,7 +595,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/sr.po initial-setup-0.3.90.2/po/sr.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -607,7 +607,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/sv.po initial-setup-0.3.90.2/po/sv.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  "Ingen licensinformation hittades. Rapportera gärna detta på http://bugzilla."
  "redhat.com"
@@ -619,7 +619,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/ta.po initial-setup-0.3.90.2/po/ta.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -631,7 +631,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/te.po initial-setup-0.3.90.2/po/te.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -643,7 +643,7 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/th.po initial-setup-0.3.90.2/po/th.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  
  #: ../initial_setup/gui/spokes/eula.py:89
@@ -655,10 +655,10 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/tr.po initial-setup-0.3.90.2/po/tr.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
 -"Lisans bulunamadı. Lütfen bunu http://bugzilla.redhat.com adresinden bildirin"
-+"Lisans bulunamadı. Lütfen bunu http://bugs.openelalinux.com adresinden bildirin"
++"Lisans bulunamadı. Lütfen bunu http://bugs.openela.org adresinden bildirin"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -670,11 +670,11 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/uk.po initial-setup-0.3.90.2/po/uk.po
  
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
  msgstr ""
  "Не знайдено ліцензійної угоди. Будь ласка, повідомте про це за допомогою "
 -"сайта http://bugzilla.redhat.com"
-+"сайта http://bugs.openelalinux.com"
++"сайта http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -687,8 +687,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/zh_CN.po initial-setup-0.3.90.2/po/zh
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "未找到许可。请汇报此问题至 http://bugzilla.redhat.com"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "未找到许可。请汇报此问题至 http://bugs.openelalinux.com"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "未找到许可。请汇报此问题至 http://bugs.openela.org"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
@@ -701,8 +701,8 @@ diff -Naurp initial-setup-0.3.90.2-orig/po/zh_TW.po initial-setup-0.3.90.2/po/zh
  #: ../initial_setup/gui/spokes/eula.py:50
 -msgid "No license found. Please report this at http://bugzilla.redhat.com"
 -msgstr "找不到授權文件。請在 http://bugzilla.redhat.com 回報這個問題"
-+msgid "No license found. Please report this at http://bugs.openelalinux.com"
-+msgstr "找不到授權文件。請在 http://bugs.openelalinux.com 回報這個問題"
++msgid "No license found. Please report this at http://bugs.openela.org"
++msgstr "找不到授權文件。請在 http://bugs.openela.org 回報這個問題"
  
  #: ../initial_setup/gui/spokes/eula.py:89
  msgid "No license found"
